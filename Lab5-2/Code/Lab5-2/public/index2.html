@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Nodejs</h1>
+    <hr>
+    <h2>LED Control Panel</h2>
+    <table>
+        <tr>
+            <td>
+                <input type="checkbox" id="c1">LED1
+            </td>
+            <td><input type="checkbox" id="c2">LED2    
+
+            </td>
+        </tr>
+    </table>
+    <div id="LED_status">
+        
+    </div>
+    <input type="button" onclick="bt1()" id="btn1" value="Submit">
+    <input type="radio" name="a" id="c3" checked>ON
+    <input type="radio" name="a" id="c4">OFF
+    <hr>
+    <h2>LED Switch Frequency</h2>
+    <input type="number" id="ss"><br>
+    <input type="button" onclick="shine()" id="btn2" value="Mode Shine" id="" style="margin-top: 5px;">
+    <p></p>
+    <input type="button" onclick="bt2()" id="btn2" value="Submit">
+    <input type="radio" name="a" id="c5" checked>DETECT
+    <input type="radio" name="a" id="c6">NO DETECT
+    <div id="shine">
+
+    </div>
+    <script src="./index.js"></script>
+ </body>
+</html>
